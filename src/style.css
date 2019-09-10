@@ -1,0 +1,24 @@
+header {
+  display: block;
+}
+
+nav.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+nav {
+    display: block;
+    text-align: center;
+}
+
+.flex-container {
+  display: flex;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
